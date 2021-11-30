@@ -5,7 +5,11 @@
     <title>Hello Renchuan</title>
 </head>
 <body>
-<h1>李堂正是头猪</h1>
-当前时间 ${date}
+<h1>This is demo </h1>
+    <form>
+        <input id="name" value="">
+        <input id="password" value="">
+        <button id="submit" value="Submit"></button>
+    </form>
 </body>
 </html>
