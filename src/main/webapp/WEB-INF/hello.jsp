@@ -6,7 +6,7 @@
 </head>
 <body>
 <h1>This is demo </h1>
-    <form method="post" >
+    <form method="post" action="/demo/login">
         <input id="name" value="">
         <input id="password" value="">
         <button id="submit" value="Submit"></button>
