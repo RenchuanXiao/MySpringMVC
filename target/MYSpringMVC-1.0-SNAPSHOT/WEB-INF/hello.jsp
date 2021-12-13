@@ -1,4 +1,4 @@
-<%@ page language="java" isELIgnored="false" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+<%@ page language="java" isELIgnored="false" contentType="text/html; charset=utf-8" pageEncoding="utf-8" %>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,10 +6,13 @@
 </head>
 <body>
 <h1>This is demo </h1>
-    <form>
-        <input id="name" value="">
-        <input id="password" value="">
-        <button id="submit" value="Submit"></button>
-    </form>
+<form method="post" action="login">
+    <table>
+        Username <input type="text" id="name" name="name" value="">
+        Password <input type="text" id="password" name="password" value="">
+         <br><br>
+        submit  <button type="submit"  id="submit" value=""></button>
+    </table>
+</form>
 </body>
 </html>
