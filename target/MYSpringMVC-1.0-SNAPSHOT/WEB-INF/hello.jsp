@@ -5,7 +5,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Hello Renchuan</title>
-    <link rel="stylesheet" href="<bootstrap:theme code='styleSheet'/>" type="text/css"/>
 </head>
 <body>
 <h1>This is demo </h1>
