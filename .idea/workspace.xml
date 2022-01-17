@@ -222,7 +222,7 @@
       <workItem from="1641906642909" duration="2859000" />
       <workItem from="1641990688523" duration="2761000" />
       <workItem from="1642077245767" duration="2639000" />
-      <workItem from="1642423919030" duration="2007000" />
+      <workItem from="1642423919030" duration="2428000" />
     </task>
     <servers />
   </component>
@@ -349,6 +349,14 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1293" height="418" key="GridCell.Tab.3.right/-1920.0.1536.826/0.0.1920.1032@0.0.1920.1032" timestamp="1640092911791" />
+    <state x="128" y="0" key="MergeDialog" timestamp="1642426658229">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="128" y="0" key="MergeDialog/-1920.0.1536.826/0.0.1920.1032@0.0.1920.1032" timestamp="1642426658229" />
+    <state x="501" y="127" width="806" height="523" key="MultipleFileMergeDialog" timestamp="1642426658234">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="501" y="127" width="806" height="523" key="MultipleFileMergeDialog/-1920.0.1536.826/0.0.1920.1032@0.0.1920.1032" timestamp="1642426658234" />
     <state x="461" y="160" key="SettingsEditor" timestamp="1640008307529">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
