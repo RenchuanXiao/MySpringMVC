@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <properties resource="jdbc.properties"></properties>
+<environments default="mysql">
+    <environment id="mysql">
+        <transactionManager type="JDBC"></transactionManager>
+        <dataSource type="com.demo.utils.c3p0DataSourceFactory">
+
+            <property name="driverClass" value="com.mysql.jdbc.Driver"/>
+            <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/springmvc?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull"/>
+            <property name="user" value="$root"/>
+            <property name="password" value="968717"/>
+            <property name="initialPoolSize" value="5"/>
+            <property name="maxPoolSize" value="20"/>
+            <property name="minPoolSize" value="5"/>
+        </dataSource>
+    </environment>
+</environments>
+
+    <mappers>
+        <mapper resource="mapper/User.xml"/>
+    </mappers>
+</configuration>
+

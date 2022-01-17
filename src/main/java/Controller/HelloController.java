@@ -31,7 +31,7 @@ public class HelloController {
         ModelAndView modelAndView = new ModelAndView();
         String name = request.getParameter("name");
         String password = request.getParameter("password");
-        if (name.equals("renchuan") && password.equals("123")) {
+        if (name.equals("xiaojing") && password.equals("123")) {
             modelAndView.addObject("password", password);
             modelAndView.setViewName("login");
             return modelAndView;
