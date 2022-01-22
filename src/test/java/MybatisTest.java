@@ -14,7 +14,7 @@ public class MybatisTest {
 
 
         // mybatis配置文件
-        String resource = "SqlMapConfig.xml";
+        String resource = "configuration\\mybatis-config.xml";
         // 得到配置文件流
         InputStream inputStream = Resources.getResourceAsStream(resource);
         //创建会话工厂，传入mybatis配置文件的信息

@@ -5,13 +5,13 @@ public class User {
     public int user_id;
     public String userName;
     public String passWord;
-    public boolean sex;
+    public String sex;
     public String address;
 
     public User() {
     }
 
-    public User(int user_id, String userName, String passWord, boolean sex, String address) {
+    public User(int user_id, String userName, String passWord, String sex, String address) {
         this.user_id = user_id;
         this.userName = userName;
         this.passWord = passWord;
@@ -43,11 +43,11 @@ public class User {
         this.passWord = passWord;
     }
 
-    public boolean isSex() {
+    public String isSex() {
         return sex;
     }
 
-    public void setSex(boolean sex) {
+    public void setSex(String sex) {
         this.sex = sex;
     }
 
