@@ -1,5 +1,8 @@
 package Dao;
 
+import java.sql.Timestamp;
+import java.util.Calendar;
+
 public class User {
 
     public int user_id;
@@ -7,16 +10,27 @@ public class User {
     public String passWord;
     public String sex;
     public String address;
+    public Timestamp birthday;
+
+    public Timestamp getBirthday() {
+        return birthday;
+    }
+
+    public void setBirthday(Timestamp birthday) {
+        this.birthday = birthday;
+    }
+
 
     public User() {
     }
 
-    public User(int user_id, String userName, String passWord, String sex, String address) {
+    public User(int user_id, String userName, String passWord, String sex, String address,Timestamp birthday) {
         this.user_id = user_id;
         this.userName = userName;
         this.passWord = passWord;
         this.sex = sex;
         this.address = address;
+        this.birthday= birthday;
     }
 
     public int getUser_id() {
@@ -43,10 +57,6 @@ public class User {
         this.passWord = passWord;
     }
 
-    public String isSex() {
-        return sex;
-    }
-
     public void setSex(String sex) {
         this.sex = sex;
     }
@@ -59,14 +69,19 @@ public class User {
         this.address = address;
     }
 
+    public String getSex() {
+        return sex;
+    }
+
     @Override
     public String toString() {
-        return "user{" +
+        return "User{" +
                 "user_id=" + user_id +
                 ", userName='" + userName + '\'' +
                 ", passWord='" + passWord + '\'' +
-                ", sex=" + sex +
+                ", sex='" + sex + '\'' +
                 ", address='" + address + '\'' +
+                ", birthday=" + birthday +
                 '}';
     }
 }

@@ -9,7 +9,7 @@
 <html>
 <head>
     <title>Welcome Xiaojing</title>
-    YOUR password:
+    恭喜你，小凯月！
 </head>
 <body>
 

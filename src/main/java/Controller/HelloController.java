@@ -29,9 +29,9 @@ public class HelloController {
     @RequestMapping(method = RequestMethod.POST, path = "/login")
     public ModelAndView login(HttpServletRequest request, HttpServletResponse response) {
         ModelAndView modelAndView = new ModelAndView();
-        String name = request.getParameter("name");
-        String password = request.getParameter("password");
-        if (name.equals("xiaojing") && password.equals("123")) {
+        String name = request.getParameter("Username");
+        String password = request.getParameter("Password");
+        if (name.equals("renchuan") && password.equals("123")) {
             modelAndView.addObject("password", password);
             modelAndView.setViewName("login");
             return modelAndView;
